@@ -15,6 +15,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Calendar &amp; Workout " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xM7-mQ-mmL">
+                                <rect key="frame" x="128" y="344" width="158" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips &amp; Suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNr-rV-0cz">
+                                <rect key="frame" x="133" y="542" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvx-MO-nkd">
+                                <rect key="frame" x="173" y="571" width="68" height="60"/>
+                                <state key="normal" image="lightbulb"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18b-kT-LO3">
                                 <rect key="frame" x="177" y="418" width="60" height="60"/>
                                 <state key="normal" title=" " backgroundImage="Icon-60">
@@ -24,34 +40,30 @@
                                     <action selector="didTapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="RyI-Fa-afH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar &amp; Workout " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xM7-mQ-mmL">
-                                <rect key="frame" x="122" y="344" width="171" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tips &amp; Suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNr-rV-0cz">
-                                <rect key="frame" x="133" y="542" width="149" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvx-MO-nkd">
-                                <rect key="frame" x="173" y="571" width="68" height="65"/>
-                                <state key="normal" image="lightbulb"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="xM7-mQ-mmL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="7Q8-Vb-BfE"/>
                             <constraint firstItem="18b-kT-LO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C4v-7j-5ys"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xM7-mQ-mmL" secondAttribute="trailing" constant="114" id="CNE-Af-Vmb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xvx-MO-nkd" secondAttribute="bottom" constant="231" id="Dvj-H0-S08"/>
                             <constraint firstItem="18b-kT-LO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hg2-ln-yhU"/>
                             <constraint firstItem="Xvx-MO-nkd" firstAttribute="top" secondItem="JNr-rV-0cz" secondAttribute="bottom" constant="47" id="HxW-5D-G6E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JNr-rV-0cz" secondAttribute="trailing" constant="112" id="IpL-vC-j9Y"/>
+                            <constraint firstItem="Xvx-MO-nkd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="153" id="KEb-qF-42g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JNr-rV-0cz" secondAttribute="bottom" constant="299" id="Nad-LL-hkp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xvx-MO-nkd" secondAttribute="trailing" constant="153" id="Vbd-pp-Z56"/>
+                            <constraint firstItem="JNr-rV-0cz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="113" id="Wo2-e5-8YZ"/>
                             <constraint firstItem="18b-kT-LO3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XnG-Is-mKF"/>
                             <constraint firstItem="18b-kT-LO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dkC-Eq-dIf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xM7-mQ-mmL" secondAttribute="bottom" constant="452" id="epU-vk-hQy"/>
                             <constraint firstItem="18b-kT-LO3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fz6-bU-p94"/>
+                            <constraint firstItem="JNr-rV-0cz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="498" id="gYJ-AM-atV"/>
+                            <constraint firstItem="Xvx-MO-nkd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="527" id="m8H-z3-Ndh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xvx-MO-nkd" secondAttribute="trailing" constant="153" id="ny1-CD-rle"/>
                             <constraint firstItem="18b-kT-LO3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oR4-x4-fTu"/>
+                            <constraint firstItem="xM7-mQ-mmL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="102" id="vpS-ml-TTV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -25,6 +25,10 @@ class ViewController: UIViewController, FSCalendarDelegate {
         present(vc, animated: true)
     }
     
+    @IBAction func SuggestionsdidTapButton(){
+        let vc = storyboard? .instantiateViewController(identifier: "SuggestionsVC") as! SuggestionsViewController
+        present(vc, animated: true)
+    }
     
 }
 

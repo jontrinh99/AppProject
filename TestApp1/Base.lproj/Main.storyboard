@@ -30,6 +30,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvx-MO-nkd">
                                 <rect key="frame" x="173" y="571" width="68" height="60"/>
                                 <state key="normal" image="lightbulb"/>
+                                <connections>
+                                    <action selector="SuggestionsdidTapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4z-xz-dCq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18b-kT-LO3">
                                 <rect key="frame" x="177" y="418" width="60" height="60"/>
@@ -98,6 +101,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3p-Jk-0GA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="298.55072463768118" y="-252.45535714285714"/>
+        </scene>
+        <!--Suggestions View Controller-->
+        <scene sceneID="DFB-Pn-Zy0">
+            <objects>
+                <viewController storyboardIdentifier="SuggestionsVC" id="AAu-Ym-y3o" customClass="SuggestionsViewController" customModule="Move_The_Earth_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="THy-UN-pro">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FLD-8B-43k"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBf-77-lRS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1083" y="-252"/>
         </scene>
     </scenes>
     <resources>

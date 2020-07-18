@@ -96,13 +96,34 @@
                     <view key="view" contentMode="scaleToFill" id="THy-UN-pro">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0GC-fu-xQx">
+                                <rect key="frame" x="139.5" y="438" width="135.5" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips coming soon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kS-BF-2BB">
+                                        <rect key="frame" x="0.0" y="0.0" width="135.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="ec1-pI-eAe"/>
+                                    <constraint firstAttribute="width" constant="135.5" id="ydG-Mx-yt2"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0GC-fu-xQx" firstAttribute="centerX" secondItem="THy-UN-pro" secondAttribute="centerX" id="QSC-mN-Eem"/>
+                            <constraint firstItem="0GC-fu-xQx" firstAttribute="centerY" secondItem="THy-UN-pro" secondAttribute="centerY" id="m4k-ot-jbQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FLD-8B-43k"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBf-77-lRS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1083" y="-252"/>
+            <point key="canvasLocation" x="1082.608695652174" y="-252.45535714285714"/>
         </scene>
     </scenes>
     <resources>

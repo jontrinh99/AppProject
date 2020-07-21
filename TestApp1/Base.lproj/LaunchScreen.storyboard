@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -15,25 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-Tv-XVM">
-                                <rect key="frame" x="152" y="95" width="300" height="300"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparentMTEloading" translatesAutoresizingMaskIntoConstraints="NO" id="d6o-fv-Cvj">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="hQ0-TE-NYd"/>
-                                            <constraint firstAttribute="width" constant="300" id="sd8-Tr-ai7"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="d6o-fv-Cvj" firstAttribute="centerY" secondItem="ahR-Tv-XVM" secondAttribute="centerY" id="67Z-3S-4AE"/>
-                                    <constraint firstItem="d6o-fv-Cvj" firstAttribute="centerX" secondItem="ahR-Tv-XVM" secondAttribute="centerX" id="KpG-BP-ffC"/>
-                                </constraints>
-                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreenWithLoading" translatesAutoresizingMaskIntoConstraints="NO" id="dRk-jF-TjH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.42189925909999998" green="0.82786166670000005" blue="0.87117683889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dRk-jF-TjH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="10W-1a-GGe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dRk-jF-TjH" secondAttribute="bottom" id="D5x-HF-Jdd"/>
+                            <constraint firstItem="dRk-jF-TjH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aqJ-Dy-z9V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dRk-jF-TjH" secondAttribute="trailing" id="iDe-rA-D5q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -43,6 +36,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="transparentMTEloading" width="1087" height="2353"/>
+        <image name="SplashScreenWithLoading" width="850" height="1100"/>
     </resources>
 </document>

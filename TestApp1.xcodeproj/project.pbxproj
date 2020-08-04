@@ -15,6 +15,8 @@
 		1120821A249B531100B90D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11208218249B531100B90D23 /* LaunchScreen.storyboard */; };
 		11208225249B531100B90D23 /* TestApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11208224249B531100B90D23 /* TestApp1Tests.swift */; };
 		115397E824B6E73000FE8329 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115397E724B6E73000FE8329 /* CalendarViewController.swift */; };
+		116DAEE724DA056B0028FB6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 116DAEE624DA056A0028FB6D /* GoogleService-Info.plist */; };
+		116DAEE824DA056B0028FB6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 116DAEE624DA056A0028FB6D /* GoogleService-Info.plist */; };
 		4CB8615724C243BB0017B981 /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8615624C243BB0017B981 /* SuggestionsViewController.swift */; };
 		6B7910DE620857381813E1BA /* Pods_TestApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F3A0234811C2D34C08A8EE /* Pods_TestApp1.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,7 @@
 		11208224249B531100B90D23 /* TestApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp1Tests.swift; sourceTree = "<group>"; };
 		11208226249B531100B90D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		115397E724B6E73000FE8329 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		116DAEE624DA056A0028FB6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CB8615624C243BB0017B981 /* SuggestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
 		6E18979E825A8B378FEF02E8 /* Pods-TestApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp1.debug.xcconfig"; path = "Target Support Files/Pods-TestApp1/Pods-TestApp1.debug.xcconfig"; sourceTree = "<group>"; };
 		D627D2DBBFE6A560B721B96A /* Pods-TestApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp1.release.xcconfig"; path = "Target Support Files/Pods-TestApp1/Pods-TestApp1.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 				11208216249B531100B90D23 /* Assets.xcassets */,
 				11208218249B531100B90D23 /* LaunchScreen.storyboard */,
 				1120821B249B531100B90D23 /* Info.plist */,
+				116DAEE624DA056A0028FB6D /* GoogleService-Info.plist */,
 			);
 			path = TestApp1;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1120821A249B531100B90D23 /* LaunchScreen.storyboard in Resources */,
+				116DAEE724DA056B0028FB6D /* GoogleService-Info.plist in Resources */,
 				11208217249B531100B90D23 /* Assets.xcassets in Resources */,
 				11208215249B530E00B90D23 /* Main.storyboard in Resources */,
 			);
@@ -222,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116DAEE824DA056B0028FB6D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

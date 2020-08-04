@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="1ve-0V-VER">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="1ve-0V-VER">
                                 <rect key="frame" x="44.5" y="308" width="325" height="280"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVv-fB-hVs">
@@ -41,17 +41,10 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreenAppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="RBP-tg-8Q5">
-                                <rect key="frame" x="20" y="44" width="90" height="90"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="RBP-tg-8Q5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0LL-lt-pnW"/>
-                            <constraint firstItem="1ve-0V-VER" firstAttribute="top" secondItem="RBP-tg-8Q5" secondAttribute="bottom" constant="174" id="0g1-ST-P1S"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RBP-tg-8Q5" secondAttribute="trailing" constant="304" id="OKs-Ks-SbN"/>
-                            <constraint firstItem="RBP-tg-8Q5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PMx-R3-9ne"/>
                             <constraint firstItem="1ve-0V-VER" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="g7W-sY-nEC"/>
                             <constraint firstItem="1ve-0V-VER" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jgP-d6-6Dk"/>
                         </constraints>
@@ -87,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3p-Jk-0GA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="280" y="-252"/>
+            <point key="canvasLocation" x="271" y="-252"/>
         </scene>
         <!--Suggestions View Controller-->
         <scene sceneID="DFB-Pn-Zy0">
@@ -123,12 +116,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBf-77-lRS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1000" y="-252"/>
+            <point key="canvasLocation" x="964" y="-252"/>
         </scene>
     </scenes>
     <resources>
         <image name="CalendarREC" width="2930" height="1174"/>
-        <image name="SplashScreenAppIcon" width="512" height="512"/>
         <image name="TipsREC" width="2930" height="1174"/>
     </resources>
 </document>

@@ -8,6 +8,7 @@
 
 import FSCalendar
 import UIKit
+import FirebaseDatabase
 
 class ViewController: UIViewController, FSCalendarDelegate {
     
@@ -16,6 +17,12 @@ class ViewController: UIViewController, FSCalendarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        let ref = Database.database().reference()
+        
+        //ref.child("someid/name").setValue("Example")
+        
+        ref.childByAutoId().setValue(["Exercise":"Bench Press" , "Sets":"3", "reps":5 , "Weight":185])
+        
     }
     
     @IBAction func didTapButton() {

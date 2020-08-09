@@ -21,7 +21,7 @@ class ViewController: UIViewController, FSCalendarDelegate {
         
         //ref.child("someid/name").setValue("Example")
         
-        ref.childByAutoId().setValue(["Exercise":"Bench Press" , "Sets":"3", "reps":5 , "Weight":185])
+        ref.childByAutoId().setValue(["Exercise":"Squat" , "Sets":"69", "reps":420 , "Weight":6969])
         
     }
     

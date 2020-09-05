@@ -1,4 +1,4 @@
-# AppProject
+# Meet The Earth 
 *Purpose:*
 
    An application originally developed on iOS to help users log nutrition, diet, and workout routine as it pertains specifically to Powerlifting. A centralized nutritional application geared towards powerlifting. Help users track personal progress and improve on the three main lifts: Bench Press, Deadlift, Squat. We want to include the user's workouts and progress in their routine through various means, such as logging the sets, repetitions, and weight lifted through every workout. The user would input their progress into a daily log, and the application would track the user's daily progress, offering various charts and data to help show progression and trends throughout a period of time.

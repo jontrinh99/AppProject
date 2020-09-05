@@ -11,12 +11,12 @@
 - CocoaPods (Calendar Framework) 
 - FireBase (RealTime Database)
 
-#### Contributors:
+### Contributors:
 - Joshua Bermudez
 - Vinh - Trung Jonathan Trinh
 - Huyen Tran Tran 
 
-##### Deployment:
+### Deployment:
 - Currently finalizing application on XCode and testing. 
 - Shifting towards deployment on iOS Store for users to use as official app on phone.
 
